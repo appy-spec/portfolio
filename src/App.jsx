@@ -1,10 +1,13 @@
 import react from 'react';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
  
   return (
     <>
-      <h1 className="text-2xl font-bold bg-black text-white">hi from portfolio</h1>
+      <Navbar />
+      <Footer />
     </>
   )
 }
