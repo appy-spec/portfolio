@@ -10,6 +10,7 @@ const labelsFirst = [
   "HTML",
   "CSS",
   "Tailwind",
+  "Bootstrap",
   "Node.js",
   "Express.js",
   "REST APIs",
@@ -40,6 +41,7 @@ const labelsThird = [
   "OOPs",
   "System Design",
   "Database",
+  "AWS Basics",
 ];
 
 const skills = [
@@ -73,7 +75,7 @@ const skills = [
 
 function Expertise() {
   return (
-    <section id="expertise" className="min-h-screen px-6 py-20 mt-10">
+    <section id="expertise" className="px-6 pt-20 mt-10">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-3xl md:text-4xl font-black font-medium mb-8">Expertise</h1>
 
@@ -116,7 +118,6 @@ function Expertise() {
                       px-4
                       py-2
                       text-sm
-                      font-medium
                       text-black-400
                     "
                   >

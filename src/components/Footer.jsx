@@ -3,9 +3,9 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 function Footer() {
   return (
-    <footer id="footer" className="py-8 mt-10 bg-slate-100">
+    <footer id="footer" className="py-8 mt-15 bg-slate-100">
       <div className="container mx-auto flex flex-col items-center gap-3">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2">
           <a
             href="https://github.com/appy-spec"
             target="_blank"
