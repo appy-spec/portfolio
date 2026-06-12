@@ -3,9 +3,8 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 function Footer() {
   return (
-    <footer className="py-8 mt-10 bg-slate-100">
+    <footer id="footer" className="py-8 mt-10 bg-slate-100">
       <div className="container mx-auto flex flex-col items-center gap-3">
-        
         <div className="flex items-center gap-6">
           <a
             href="https://github.com/appy-spec"
@@ -28,9 +27,7 @@ function Footer() {
 
         <p className="text-sm text-gray-600 text-center">
           Designed & Built by{" "}
-          <span className="font-semibold text-black">
-            Rahul Patel
-          </span>
+          <span className="font-semibold text-black">Rahul Patel</span>
         </p>
       </div>
     </footer>

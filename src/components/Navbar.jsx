@@ -5,9 +5,8 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="navbar shadow-md px-4 py-2 fixed top-0 left-0 right-0 z-50 bg-white">
+    <nav id="navbar" className="navbar shadow-md px-4 py-2 fixed top-0 left-0 right-0 z-50 bg-white">
       <div className="flex items-center justify-between h-16">
-        {/* Logo */}
         <div className="text-2xl md:text-3xl font-black bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
           <h1>Rahul Patel</h1>
         </div>
@@ -34,8 +33,6 @@ function Navbar() {
             Contact
           </button>
         </div>
-
-        {/* Mobile Hamburger */}
         <button
           className="md:hidden text-3xl"
           onClick={() => setMenuOpen(!menuOpen)}
