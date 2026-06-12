@@ -13,23 +13,23 @@ function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8">
-          <button className="text-black hover:text-blue-600 transition-colors duration-300 text-lg">
+          <button className="text-black hover:text-blue-600 hover:cursor-pointer transition-colors duration-300 text-lg">
             Expertise
           </button>
 
-          <button className="text-black hover:text-blue-600 transition-colors duration-300 text-lg">
+          <button className="text-black hover:text-blue-600 hover:cursor-pointer transition-colors duration-300 text-lg">
             Experience
           </button>
 
-          <button className="text-black hover:text-blue-600 transition-colors duration-300 text-lg">
+          <button className="text-black hover:text-blue-600 hover:cursor-pointer transition-colors duration-300 text-lg">
             Projects
           </button>
 
-          <button className="text-black hover:text-blue-600 transition-colors duration-300 text-lg">
+          <button className="text-black hover:text-blue-600 hover:cursor-pointer transition-colors duration-300 text-lg">
             Resume
           </button>
 
-          <button className="text-black hover:text-blue-600 transition-colors duration-300 text-lg">
+          <button className="text-black hover:text-blue-600 hover:cursor-pointer transition-colors duration-300 text-lg">
             Contact
           </button>
         </div>
