@@ -94,11 +94,11 @@ function Expertise() {
                 hover:shadow-2xl
               "
             >
-              <div className="mb-6 text-blue-500">
+              <div className="mb-6 text-black-500">
                 <FontAwesomeIcon icon={skill.icon} size="3x" />
               </div>
 
-              <h3 className="text-2xl font-bold mb-4">{skill.title}</h3>
+              <h3 className="text-2xl font-medium mb-4">{skill.title}</h3>
 
               <p className="text-gray-600 leading-7 mb-6">{skill.desc}</p>
 
@@ -112,15 +112,12 @@ function Expertise() {
                     key={label}
                     className="
                       rounded-full
-                      bg-blue-100
+                      bg-gray-100
                       px-4
                       py-2
                       text-sm
                       font-medium
-                      text-blue-700
-                      transition
-                      hover:bg-blue-500
-                      hover:text-white
+                      text-black-400
                     "
                   >
                     {label}
