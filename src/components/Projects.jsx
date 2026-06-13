@@ -130,9 +130,9 @@ const projects = [
 
 function Projects() {
   return (
-    <section id="projects" className="px-6 mt-10">
-      <div className="max-w-7xl mx-auto">
-        <h1 className="text-3xl md:text-4xl font-black font-medium mb-8">
+    <section id="projects" className="px-6 pt-20 mt-10">
+      <div className="max-w-6xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-black font-medium mb-12 text-center text-underline">
           Projects
         </h1>
 

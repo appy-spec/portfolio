@@ -76,8 +76,8 @@ const skills = [
 function Expertise() {
   return (
     <section id="expertise" className="px-6 pt-20 mt-10">
-      <div className="max-w-7xl mx-auto">
-        <h1 className="text-3xl md:text-4xl font-black font-medium mb-8">Expertise</h1>
+      <div className="max-w-6xl mx-auto">
+        <h1 className="text-3xl md:text-4xl font-black font-medium mb-8 text-center">Expertise</h1>
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {skills.map((skill, index) => (

@@ -18,15 +18,11 @@ function Navbar() {
           </button>
 
           <button className="text-black hover:text-blue-600 hover:cursor-pointer transition-colors duration-300 text-lg">
-            Experience
+            Learning Path
           </button>
 
           <button className="text-black hover:text-blue-600 hover:cursor-pointer transition-colors duration-300 text-lg">
             Projects
-          </button>
-
-          <button className="text-black hover:text-blue-600 hover:cursor-pointer transition-colors duration-300 text-lg">
-            Resume
           </button>
 
           <button className="text-black hover:text-blue-600 hover:cursor-pointer transition-colors duration-300 text-lg">
@@ -49,15 +45,11 @@ function Navbar() {
           </button>
 
           <button className="w-full rounded-lg bg-slate-100 px-4 py-3 text-left hover:bg-blue-500 hover:text-white transition">
-            Experience
+            Learning Path
           </button>
 
           <button className="w-full rounded-lg bg-slate-100 px-4 py-3 text-left hover:bg-blue-500 hover:text-white transition">
             Projects
-          </button>
-
-          <button className="w-full rounded-lg bg-slate-100 px-4 py-3 text-left hover:bg-blue-500 hover:text-white transition">
-            Resume
           </button>
 
           <button className="w-full rounded-lg bg-slate-100 px-4 py-3 text-left hover:bg-blue-500 hover:text-white transition">

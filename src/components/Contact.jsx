@@ -39,14 +39,14 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="px-6 mt-10">
-      <div className="max-w-7xl mx-auto">
+    <section id="contact" className="px-6 pt-20 mt-10">
+      <div className="max-w-6xl mx-auto">
         <div className="mb-8">
-          <h1 className="text-3xl md:text-4xl font-medium">
+          <h1 className="text-3xl md:text-4xl font-medium text-center text-underline">
             Contact Me
           </h1>
 
-          <p className="mt-3 text-gray-500 text-lg">
+          <p className="mt-3 text-gray-500 text-lg text-center">
             Got a project waiting to be realized? Let&apos;s collaborate and
             build something.
           </p>
