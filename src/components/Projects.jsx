@@ -130,12 +130,15 @@ const projects = [
 
 function Projects() {
   return (
-    <section id="projects" className="px-6 pt-20 mt-10">
+    <section id="projects" className="px-6 pt-25 mt-5">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-3xl md:text-4xl font-black font-medium mb-12 text-center text-underline">
+        <h1 className="text-3xl md:text-4xl font-black font-medium text-center text-underline">
           Projects
         </h1>
-
+        <p className="mt-3 text-gray-500 text-md mb-12 text-center">
+          A collection of ideas transformed into real-world applications through
+          design, development, and problem solving.
+        </p>
         <div className="grid gap-10 md:grid-cols-2">
           {projects.map((project) => (
             <div

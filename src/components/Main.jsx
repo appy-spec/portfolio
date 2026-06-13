@@ -3,6 +3,7 @@ import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import DescriptionIcon from "@mui/icons-material/Description";
+import { SiLeetcode, SiGeeksforgeeks } from "react-icons/si";
 
 import avtar from "../assets/images/avtar.jfif";
 import bg from "../assets/images/background.png";
@@ -14,8 +15,7 @@ function Main() {
       className="
         relative
         px-6
-        pt-25
-        mt-20
+        pt-43
         overflow-hidden
         flex
         items-center
@@ -52,7 +52,7 @@ function Main() {
         className="
           max-w-6xl
           mx-auto
-          lg:mr-58
+          lg:mr-61
           w-full
           pr-5
           pl-1
@@ -75,8 +75,8 @@ function Main() {
               h-[230px]
               w-[230px]
 
-              md:h-[280px]
-              md:w-[280px]
+              md:h-[260px]
+              md:w-[260px]
 
               rounded-full
               overflow-hidden
@@ -85,7 +85,8 @@ function Main() {
               border-black/20
 
               shadow-2xl
-              hover:scale-105
+              hover:shadow-5xl
+              transition 300
             "
           >
             <img
@@ -148,6 +149,7 @@ function Main() {
               mt-8
               text-black-500
               max-w-3xl
+              text-lg
             "
           >
             Computer Engineering graduate passionate about building scalable web
@@ -174,7 +176,7 @@ function Main() {
                 rounded-full
                 bg-black
                 text-white
-                hover:scale-105
+                hover:scale-90
                 transition
               "
             >
@@ -182,7 +184,7 @@ function Main() {
             </a>
 
             <a
-              href="/resume.pdf"
+              href="/RahulPatel_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="
@@ -205,7 +207,7 @@ function Main() {
           <div
             className="
               flex
-              gap-5
+              gap-3
               mt-10
               justify-center
               lg:justify-start
@@ -216,16 +218,36 @@ function Main() {
               href="https://github.com/appy-spec"
               target="_blank"
               rel="noopener noreferrer"
+              className="text-gray-800 hover:text-black-800 hover:cursor-pointer transition-all duration-300 hover:scale-110"
             >
               <GitHubIcon fontSize="large" />
             </a>
 
-            <a href="YOUR_LINKEDIN" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.linkedin.com/in/rahul-patel-70265126b"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-800 hover:text-blue-800 hover:cursor-pointer transition-all duration-300 hover:scale-110"
+            >
               <LinkedInIcon fontSize="large" />
             </a>
 
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-              <DescriptionIcon fontSize="large" />
+            <a
+              href="https://leetcode.com/u/RahulP74"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-800 hover:text-orange-500 hover:cursor-pointer transition-all duration-300 hover:scale-110"
+            >
+              <SiLeetcode size={28} />
+            </a>
+
+            <a
+              href="https://www.geeksforgeeks.org/profile/rahulpateln1a?tab=activity"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-800 hover:text-green-600 hover:cursor-pointer transition-all duration-300 hover:scale-110"
+            >
+              <SiGeeksforgeeks size={36} />
             </a>
           </div>
         </div>

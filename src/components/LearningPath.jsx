@@ -75,12 +75,16 @@ function LearningPath() {
     },
   ];
   return (
-    <section id="learning-path" className="px-6 pt-20 mt-10">
+    <section id="learning-path" className="px-6 pt-25 mt-5">
       <div className="max-w-6xl mx-auto">
         <div className="mb-12">
           <h1 className="text-3xl md:text-4xl font-medium text-center text-underline">
             Learning Path
           </h1>
+          <p className="mt-3 text-gray-500 text-md text-center">
+            Each milestone represents growth, curiosity, and continuous progress
+            toward becoming a better engineer.
+          </p>
         </div>
 
         <div className="relative border-l border-gray-200 ml-6">

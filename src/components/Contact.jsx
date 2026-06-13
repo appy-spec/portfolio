@@ -39,16 +39,15 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="px-6 pt-20 mt-10">
+    <section id="contact" className="px-6 pt-25 mt-5">
       <div className="max-w-6xl mx-auto">
         <div className="mb-8">
           <h1 className="text-3xl md:text-4xl font-medium text-center text-underline">
             Contact Me
           </h1>
 
-          <p className="mt-3 text-gray-500 text-lg text-center">
-            Got a project waiting to be realized? Let&apos;s collaborate and
-            build something.
+          <p className="mt-3 text-gray-500 text-md mb-12 text-center">
+            Have an idea, opportunity, or project in mind? Let’s connect and create something meaningful together.
           </p>
         </div>
 
