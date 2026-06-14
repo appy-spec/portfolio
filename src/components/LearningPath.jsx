@@ -87,7 +87,7 @@ function LearningPath() {
           </p>
         </div>
 
-        <div className="relative border-l border-gray-200 ml-6">
+        <div className="relative border-l border-gray-200 ml-2">
           {experiences.map((exp, index) => (
             <div key={index} className="mb-12 ml-10 relative">
               <div

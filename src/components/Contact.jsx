@@ -2,8 +2,11 @@ import React, { useState } from "react";
 
 import { Box, Button, TextField } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
+import { useMediaQuery } from "@mui/material";
 
 function Contact() {
+
+  const isMobile = useMediaQuery("(max-width:640px)");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -89,7 +92,7 @@ function Contact() {
             <TextField
               fullWidth
               multiline
-              rows={8}
+              rows={isMobile ? 4 : 6}
               label="Message"
               placeholder="Tell me about your idea..."
               value={message}
