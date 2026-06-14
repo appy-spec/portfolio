@@ -5,7 +5,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import DescriptionIcon from "@mui/icons-material/Description";
 import { SiLeetcode, SiGeeksforgeeks } from "react-icons/si";
 
-import avtar from "../assets/images/avtar.jfif";
+import avtar from "../assets/images/avtar.jpeg";
 import bg from "../assets/images/background.png";
 
 function Main() {
@@ -75,8 +75,8 @@ function Main() {
               h-[230px]
               w-[230px]
 
-              md:h-[260px]
-              md:w-[260px]
+              md:h-[270px]
+              md:w-[270px]
 
               rounded-full
               overflow-hidden
@@ -115,7 +115,7 @@ function Main() {
         >
           <p
             className="
-              text-blue-800
+              text-blue-700
               text-lg
               mb-4
             "

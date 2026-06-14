@@ -6,6 +6,7 @@ import childDiary from "../assets/images/childDiary.png";
 import hdNotes from "../assets/images/hdNotes.png";
 import sigmaGpt from "../assets/images/sigmaGpt.png";
 import secureOps from "../assets/images/secureOps.png";
+import weatherApp from "../assets/images/weatherApp.png";
 
 const projects = [
   {
@@ -110,7 +111,7 @@ const projects = [
 
     github: "https://github.com/appy-spec/secureOps",
 
-    live: "",
+    live: "https://github.com/appy-spec/secureOps",
 
     desc: "Designed and developed an endpoint security monitoring platform that collects Linux host data, installed packages, and CIS benchmark results, delivering centralized visibility through a real-time web dashboard.",
 
@@ -124,6 +125,28 @@ const projects = [
       "REST APIs",
       "Linux",
       "AWS EC2",
+    ],
+  },
+
+  {
+    image: weatherApp,
+
+    title: "Weather App",
+
+    github: "https://github.com/appy-spec/weatherApp",
+
+    live: "https://wheather-app-ten-fawn.vercel.app",
+
+    desc: "Weather app provides real-time weather updates using the Open-Meteo API. Users can search locations to view current weather conditions through a clean interface with efficient data fetching.",
+
+    tech: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Open-Meteo API",
+      "Fetch API",
+      "Async/Await",
+      "Responsive Design",
     ],
   },
 ];
