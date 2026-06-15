@@ -41,7 +41,7 @@ const labelsThird = [
   "OOPs",
   "System Design",
   "Database",
-  "AWS Basics",
+  "AWS Basic",
 ];
 
 const skills = [
