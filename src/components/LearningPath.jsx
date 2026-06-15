@@ -11,7 +11,7 @@ function LearningPath() {
     },
 
     {
-      year: "Aug 2023 - Sept 2023",
+      year: "July 2023 - Aug 2023",
       title: "Web Developer Intern",
       company: "Suven Consultants & Technology Pvt. Ltd.",
       description:
@@ -20,7 +20,7 @@ function LearningPath() {
 
     {
       year: "Aug 2024 - Oct 2024",
-      title: "Software Developer Intern",
+      title: "Software Engineer Intern",
       company: "Zidio Development",
       description:
         "Worked on responsive web applications, integrated APIs, and contributed to frontend and backend development while ensuring performance optimization and project requirement alignment.",
