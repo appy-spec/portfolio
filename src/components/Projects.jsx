@@ -90,14 +90,14 @@ const projects = [
 
     live: "https://sigma-gpt-cyan.vercel.app",
 
-    desc: "Built a full-stack AI-powered chat platform using the MERN stack and OpenAI API, enabling real-time conversations, persistent chat storage, and seamless access to previous interactions.",
+    desc: "Built a full-stack AI-powered chat platform using the MERN stack and Gemini API, enabling real-time conversations, persistent chat storage, and seamless access to previous interactions.",
 
     tech: [
       "React",
       "Node.js",
       "Express.js",
       "MongoDB",
-      "OpenAI API",
+      "Gemini API",
       "JavaScript",
       "REST APIs",
       "Bootstrap",
