@@ -54,7 +54,7 @@ function Main() {
           mx-auto
           w-full
           grid
-          lg:grid-cols-[1fr_2fr]
+          lg:grid-cols-[40%_1fr]
           items-center
           gap-10
         "
