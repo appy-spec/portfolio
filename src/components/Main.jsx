@@ -52,12 +52,9 @@ function Main() {
         className="
           max-w-6xl
           mx-auto
-          lg:mr-61
           w-full
-          pr-5
-          pl-1
           grid
-          lg:grid-cols-2
+          lg:grid-cols-[1fr_2fr]
           items-center
           gap-10
         "
